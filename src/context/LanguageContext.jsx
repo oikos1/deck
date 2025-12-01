@@ -163,7 +163,7 @@ const translations = {
         controls_bg_intensity: "Intensity",
     },
     es: {
-        hero_tag: "En vivo en Monad Mainnet",
+        hero_tag: "En vivo en Binance Smart Chain Mainnet",
         hero_title: "Protocolo Oikos",
         hero_subtitle: "La Capa de Liquidez Indestructible",
         hero_fairness_title: "Indestructible",

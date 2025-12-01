@@ -563,7 +563,7 @@ class ConvolutionBackground {
         };
 
         this.presetPalettes = [
-            ["#4ade80", "#60a5fa", "#f472b6", "#fbbf24"],
+            ["#f8bd45", "#8D6108", "#DAA520", "#B8860B"],
             ["#fbbf24", "#f87171", "#a78bfa", "#34d399"],
             ["#34d399", "#38bdf8", "#e879f9", "#fb923c"],
             ["#22d3d2", "#818cf8", "#fb7185", "#a3e635"],

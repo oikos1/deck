@@ -20,7 +20,7 @@ export default function SolutionSlide({ isActive }) {
                     <div className="card">
                         <div className="highlight">
                             <EditableText textKey="solution_card_2_title" as="span" />
-                            <InfoIcon />
+                            {/* <InfoIcon /> */}
                         </div>
                         <EditableText textKey="solution_card_2_text" as="p" />
                     </div>

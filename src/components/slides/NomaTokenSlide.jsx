@@ -17,7 +17,7 @@ export default function NomaTokenSlide({ isActive }) {
                         <div className="card">
                             <div className="highlight">
                                 <EditableText textKey="noma_token_card_1_title" as="span" />
-                                <InfoIcon type="dividends" />
+                                {/* <InfoIcon type="dividends" /> */}
                             </div>
                             <EditableText textKey="noma_token_card_1_text" as="p" />
                         </div>

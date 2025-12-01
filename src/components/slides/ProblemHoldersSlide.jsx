@@ -12,11 +12,13 @@ export default function ProblemHoldersSlide({ isActive }) {
                 <div className="grid-2">
                     <div style={{ order: 2 }}>
                         <EditableText textKey="problem_holders_text" as="p" />
-                        <ul>
-                            <li><EditableText textKey="problem_holders_list_1_title" as="strong" /> <EditableText textKey="problem_holders_list_1_text" as="span" /></li>
-                            <li><EditableText textKey="problem_holders_list_2_title" as="strong" /> <EditableText textKey="problem_holders_list_2_text" as="span" /></li>
-                            <li><EditableText textKey="problem_holders_list_3_title" as="strong" /> <EditableText textKey="problem_holders_list_3_text" as="span" /></li>
-                        </ul>
+                        <div style={{marginTop:"20px"}}>
+                            <ul>
+                                <li><EditableText textKey="problem_holders_list_1_title" as="strong" /> <EditableText textKey="problem_holders_list_1_text" as="span" /></li>
+                                <li><EditableText textKey="problem_holders_list_2_title" as="strong" /> <EditableText textKey="problem_holders_list_2_text" as="span" /></li>
+                                <li><EditableText textKey="problem_holders_list_3_title" as="strong" /> <EditableText textKey="problem_holders_list_3_text" as="span" /></li>
+                            </ul>                            
+                        </div>
                     </div>
                     <div style={{ order: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <div className="chart-placeholder">

@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #0a0b10;
-    --text-color: #e0e0e0;
-    --accent-primary: #6366f1;
-    --accent-secondary: #a855f7;
-    --accent-tertiary: #10b981;
-    --surface-color: rgba(22, 27, 34, 0.8);
-    --border-color: #30363d;
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-primary: #f8bd45;
+    --accent-secondary: #8D6108;
+    --accent-tertiary: #8D6108; /* Using the darker gold as tertiary for consistency */
+    --surface-color: rgba(20, 20, 20, 0.9);
+    --border-color: #333333;
     --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -80,14 +80,14 @@ body {
 }
 
 h1, h2, h3 {
-    text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+    /* text-shadow: 0 4px 12px rgba(0,0,0,0.8); */
 }
 
 h1 {
     font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+    background: linear-gradient(135deg, #fff 0%, #bad3c3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -260,9 +260,9 @@ button:disabled {
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.875rem;
-    background: rgba(99, 102, 241, 0.2);
-    color: #a5b4fc;
-    border: 1px solid rgba(99, 102, 241, 0.3);
+    background: rgba(248, 189, 69, 0.2);
+    color: var(--accent-primary);
+    border: 1px solid rgba(248, 189, 69, 0.3);
     margin-bottom: 1rem;
     backdrop-filter: blur(4px);
 }

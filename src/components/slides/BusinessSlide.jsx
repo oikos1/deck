@@ -19,7 +19,7 @@ export default function BusinessSlide({ isActive }) {
                     <div className="card" style={{ textAlign: 'center' }}>
                         <div className="big-stat">
                             <EditableText textKey="business_card_2_stat" as="span" />
-                            <InfoIcon type="dividends" />
+                            {/* <InfoIcon type="dividends" /> */}
                         </div>
                         <div className="stat-label"><EditableText textKey="business_card_2_label" as="span" /></div>
                         <EditableText textKey="business_card_2_text" as="p" style={{ fontSize: '0.9rem', marginTop: '1rem' }} />

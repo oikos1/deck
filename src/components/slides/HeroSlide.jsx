@@ -25,7 +25,7 @@ export default function HeroSlide({ isActive }) {
                         filter: 'drop-shadow(0 0 20px rgba(99, 102, 241, 0.4))'
                     }}
                 />
-                <EditableText textKey="hero_title" as="h1" />
+                <EditableText textKey="hero_title" as="h1" style={{ color: 'white' }} />
                 <EditableText textKey="hero_subtitle" as="p" style={{ fontSize: '1.5rem', color: '#9ca3af' }} />
                 <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
                     <div style={{ padding: '1rem 2rem', borderLeft: '2px solid var(--accent-primary)', textAlign: 'left' }}>

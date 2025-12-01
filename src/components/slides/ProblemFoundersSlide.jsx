@@ -12,11 +12,13 @@ export default function ProblemFoundersSlide({ isActive }) {
                 <div className="grid-2">
                     <div>
                         <EditableText textKey="problem_founders_text" as="p" />
-                        <ul>
-                            <li><EditableText textKey="problem_founders_list_1_title" as="strong" /> <EditableText textKey="problem_founders_list_1_text" as="span" /></li>
-                            <li><EditableText textKey="problem_founders_list_2_title" as="strong" /> <EditableText textKey="problem_founders_list_2_text" as="span" /></li>
-                            <li><EditableText textKey="problem_founders_list_3_title" as="strong" /> <EditableText textKey="problem_founders_list_3_text" as="span" /></li>
-                        </ul>
+                        <div style={{marginTop:"20px"}}>
+                            <ul>
+                                <li><EditableText textKey="problem_founders_list_1_title" as="strong" /> <EditableText textKey="problem_founders_list_1_text" as="span" /></li>
+                                <li><EditableText textKey="problem_founders_list_2_title" as="strong" /> <EditableText textKey="problem_founders_list_2_text" as="span" /></li>
+                                <li><EditableText textKey="problem_founders_list_3_title" as="strong" /> <EditableText textKey="problem_founders_list_3_text" as="span" /></li>
+                            </ul>                            
+                        </div>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <div className="chart-placeholder">
